@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* secnav------------------------------------------------------------------ */
+
+.container {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+.navbar2 {
+    background-color: #eaeaea;
+
+}
+
+.nav2-in {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.contact-details {
+    display: flex;
+}
+
+.nav2-p1 {
+    margin-right: 18px;
+}
+
+.nav2-i {
+    color: #f16821;
+}
+
+.nav2-i:hover {
+    color: #b43e04;
+    transition: all 0.3s;
+}
+
+.left-i {
+    font-size: 25px;
+}
+
+
+.left-i1:hover {
+    color: #f16821;
+    transition: all 0.6s;
+}
+
+.left-i2:hover {
+    color: #f16821;
+    transition: all 0.6s;
+}
+
+.left-i3:hover {
+    color: #f16821;
+    transition: all 0.6s;
+}
+
+.left-i4:hover {
+    color: #f16821;
+    transition: all 0.6s;
+}
+
+
+/* thri nav ----------------------------------------------------------------------------- */
+
+.nav3-in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav3-h1 {
+    font-size: 45px;
+}
+
+.nav3-li {
+    display: inline-block;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+
+.nav3-li:hover {
+    color: #f16821;
+    transition: all 0.7s;
+}
+
+
+
+/* image and tamplate------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.image {
+    background-image: url(./images/hero_2.jpg);
+    margin-bottom: 100px;
+}
+
+
+.img-text {
+    padding: 450px 0;
+}
+
+.img-h1 {
+    padding-top: 40px;
+    font-size: 90px;
+    color: white;
+}
+
+.img-p1 {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 600px;
+    color: white;
+}
+
+.img-button {
+    border: 1px solid white;
+    padding: 30px 50px;
+    margin-top: 50px;
+    background: none;
+    font-size: 15px;
+    color: white;
+}
+
+.img-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    transition: all 0.4s;
+}
+
+
+
+
+.img-button2 {
+    border: 1px solid white;
+    padding: 30px 50px;
+    margin-top: 50px;
+    font-size: 15px;
+
+}
+
+.img-button2:hover {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    transition: all 0.4s;
+
+
+}
+
+
+
+
+/* subtitle --------------------------------------------------------------- */
+
+.sub-in {
+    text-align: center;
+}
+
+
+.sub-p1 {
+    color: #adb5bd;
+    margin: 20px 0 10px;
+}
+
+.sub-h1 {
+    color: black;
+    font-size: 40px;
+}
+
+
+.sub-p2 {
+    color: #808080;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+
+/* containt----------------------------------------------------------- */
+
+.containt-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.cont-img {
+    margin-top: 60px;
+    width: 32%;
+    text-align: center;
+
+
+}
+
+.cout-image{
+    overflow: hidden;
+}
+
+.cont-img:hover .cont-imgg{
+    outline-offset: -40px;
+    outline: 4px solid orangered;
+    transform: scale(1.1);
+    transition: all 1s;
+
+
+
+} 
+
+.cont-imgg {
+    width: 100%;
+    max-width: 500px;
+
+
+}
+
+
+.cont-h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+
+.cont-i {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+.cont-i1 {
+    color: #cccccc;
+
+}
+
+
+.cont-i1:hover {
+    color: gold;
+    transition: all 0.6s;
+
+
+}
+
+.cont-i2 {
+    color: #cccccc;
+
+}
+
+.cont-i2:hover {
+    color: red;
+    transition: all 0.6s;
+}
+
+
+
+.cont-p1 {
+
+    text-align: center;
+    color: #808080;
+
+
+
+}
+
+.button-cont {
+    text-align: center;
+}
+
+
+.cont-button1 {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    margin: 20px 6px 0 0;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.cont-button1:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.4s;
+}
+
+.cont-button2 {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    margin: 20px 0 6px 0;
+    font-size: 15px;
+    border-radius: 20px;
+
+}
+
+.cont-button2:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.4s;
+}
+
+
+
+
+
+/* Enterance--------------------------------------------------------------------- */
+
+.enterance {
+    background-image: url(./images/hero_2.jpg);
+    /* margin: 290px 0; */
+    background-position: -281px -221px;
+    padding: 134px 0;
+}
+
+input{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 0;
+}
+
+
+.enter-in{
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
